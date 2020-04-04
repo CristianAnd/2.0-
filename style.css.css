@@ -1,0 +1,36 @@
+body { 
+background-color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 15%;
+    margin: 20px;
+    height: 20px;
+
+}
+.cabecalhoPrincipal{
+    background-color:#2E64FE;
+    padding: 1px;
+}
+.cabecalhoPrincipal-titulo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cabecalhoPrincipal-nav-link {
+    padding: 7px;
+    margin-bottom: 5px;
+    color: #FFF;
+    background-color:#2E64FE;
+    text-decoration: none;
+    transition: .5s;
+    display: run-in;
+    border-bottom:1px solid #0022ff;
+}
+
+.conteudoPrincipal {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
