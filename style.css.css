@@ -34,3 +34,20 @@ font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
     
 }
+.user {
+    margin:1px;
+    width: 8%; 
+    height: 30px; 
+    border-radius: 3px;
+    background-color: #fff;
+    border: solid rgb(240, 240, 240) 1px;  
+}
+
+.friends {
+    position: inline;
+    background-color:#FFF;
+    border: solid rgb(240, 240, 240) 1px;
+    width: 10%;
+    height: 800px;   
+}    
+
