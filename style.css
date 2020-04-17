@@ -1,50 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
 body {
-background-color: rgb(226, 226, 226);
+    background-color: rgb(226, 226, 226);
 }
 
 .cabecario-principal {  
-    width: 1922px;
+    width: 100vw;
     height: 70px;
     background-color: rgb(45, 47, 49);
-    transform: translate(-10px,-10px);
+    display: flex;
+    align-items: center;
 }
 
-.icon>img{
+img {
     width: 50px;
-    transform: translate(15px, 10px);
+    
 }
 .caixa-de-pesquisa{
+    display: flex;
     width: 150px;
     height: 10px;
+    margin-right: 10px;
     border: 1px solid rgb(59, 61, 63);
-    padding: 8px;
-    transform: translate(90px, -30px);
+    padding: 12px;
     transition: 0.5s;
     border-radius: 3px;
     background-color: rgb(63, 68, 72);   
 }
-.caixa-de-pesquisa:hover{
-    width: 300px;
+
+.caixa-de-pesquisa:active {
+    background-color: #fff;
+    width: 450px;
+    transition: .250ms ease-in;
 }
 
+
 .topnav {
-    overflow: hidden;
     background-color:rgb(45, 47, 49);
-    transform: translate(410px,-70px);
-    width: 700px;
-  }
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
   
 .topnav a {
     float: left;
-    display: block;
+    align-items: center;
+    display: flex;
     color: #f2f2f2;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+}
  
-.topnav a:hover{
+.topnav a:hover {
     background-color: rgb(45, 47, 49);;
     color: rgb(161, 156, 156);
 }
