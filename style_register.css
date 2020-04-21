@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(226, 226, 226);
+}
+h1 {
+    color: rgb(0, 140, 255);
+    transition: 250ms;
+    font-family: monospace;
+    margin-left: 20px;
+    margin-top: 10px;
+} 
+
+input:focus{
+    width: 300px;
+    transition: 350ms;
+}
+

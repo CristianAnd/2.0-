@@ -9,6 +9,11 @@ body {
     background-color: rgb(226, 226, 226);
 }
 
+img {
+    width: 50px;
+    
+}
+
 .cabecario-principal {  
     width: 100vw;
     height: 70px;
@@ -17,28 +22,21 @@ body {
     align-items: center;
 }
 
-img {
-    width: 50px;
-    
-}
-.caixa-de-pesquisa{
+.search-txt{
     display: flex;
     width: 150px;
     height: 10px;
     margin-right: 10px;
-    border: 1px solid rgb(59, 61, 63);
     padding: 12px;
-    transition: 0.5s;
-    border-radius: 3px;
-    background-color: rgb(63, 68, 72);   
+    color: black;
+    font-size: 15px;
 }
-
-.caixa-de-pesquisa:active {
+/*FOCUS, HOVER E Active*/
+.search-txt:focus  { 
     background-color: #fff;
     width: 450px;
-    transition: .250ms ease-in;
+    transition: .220ms ease-in;
 }
-
 
 .topnav {
     background-color:rgb(45, 47, 49);
@@ -54,7 +52,7 @@ img {
     color: #f2f2f2;
     padding: 14px 16px;
     text-decoration: none; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
 }
  
 .topnav a:hover {
@@ -68,4 +66,5 @@ img {
       width: 100%;  
     }    
 }
+
 
