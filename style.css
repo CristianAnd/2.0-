@@ -11,7 +11,7 @@ body {
 
 img {
     width: 50px;
-    
+    margin-left: 5px;
 }
 
 .cabecario-principal {  
@@ -24,18 +24,20 @@ img {
 
 .search-txt{
     display: flex;
-    width: 150px;
+    width: 300px;
     height: 10px;
-    margin-right: 10px;
-    padding: 12px;
-    color: black;
+    margin-left: 10px;
+    padding: 14px;
+    background-color: rgb(69, 72, 75);
+    border: 2px solid rgb(45, 47, 49);
+    border-radius: 5px;
     font-size: 15px;
 }
 /*FOCUS, HOVER E Active*/
 .search-txt:focus  { 
     background-color: #fff;
-    width: 450px;
-    transition: .220ms ease-in;
+    width: 500px;
+    transition: .3s ease-in;
 }
 
 .topnav {

@@ -31,10 +31,7 @@ input {
     margin-left: 500px;
     margin-top: 20px;
 }
-.Nome-de-usuario input:hover{
-    border:2px solid #00cec9;
-    transition: 350ms;
-}
+
 
 h1:hover{
     color: rgb(155, 153, 153);
@@ -49,6 +46,11 @@ h1:hover{
     padding: 12px;
     display: run-in;
     
+}
+
+.Nome-de-usuario input:hover{
+    border:2px solid #00cec9;
+    transition: 350ms;
 }
 
 .Senha input {
