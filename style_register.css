@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(226, 226, 226);
+    background-color: #2d3436;
 }
 h1 {
     color: rgb(0, 140, 255);
@@ -14,10 +14,84 @@ h1 {
     font-family: monospace;
     margin-left: 20px;
     margin-top: 10px;
+    text-align: center;
 } 
 
-input:focus{
-    width: 300px;
+input {
+    align-items: center;
+    text-align: center;
+}
+.Register {
+    background-color: rgb(20, 20, 20);
+    display: run-in;
+    align-items: center;
+    width: 800px;
+    height: 400px;
+    padding: 10px;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.Nome-de-usuario input:hover{
+    border:2px solid #00cec9;
     transition: 350ms;
 }
 
+h1:hover{
+    color: rgb(155, 153, 153);
+}
+
+.Nome-de-usuario input {
+    background-color: none;
+    border-radius: 20px;
+    border: 2px solid #74b9ff;
+    width: 200px;
+    height: 50px;
+    padding: 12px;
+    display: run-in;
+    
+}
+
+.Senha input {
+    background-color: none;
+    border-radius: 20px;
+    border: 2px solid #74b9ff;
+    width: 200px;
+    height: 50px;
+    padding: 12px;
+    display: run-in;   
+}
+
+.Senha input:hover{
+    border:2px solid #00cec9;
+    transition: 350ms;
+}
+
+.Repita-a-senha input {
+    background-color: none;
+    border-radius: 20px;
+    border: 2px solid #74b9ff;
+    width: 200px;
+    height: 50px;
+    padding: 12px;
+    display: run-in;   
+}
+
+.Repita-a-senha input:hover{
+    border:2px solid #00cec9;
+    transition: 350ms;
+}
+
+.Data-de-nascimento input {
+    background-color: none;
+    border-radius: 20px;
+    border: 2px solid #74b9ff;
+    width: 200px;
+    height: 50px;
+    padding: 12px;
+    display: run-in;   
+}
+
+.Data-de-nascimento input:hover{
+    border:2px solid #00cec9;
+    transition: 350ms;
+}
